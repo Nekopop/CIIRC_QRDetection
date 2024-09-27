@@ -1,4 +1,5 @@
 target/
 dataset/
+resize-dataset/
 *.log
 
