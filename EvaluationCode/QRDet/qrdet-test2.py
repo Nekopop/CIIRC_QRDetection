@@ -1,17 +1,19 @@
 from qrdet import QRDetector
 import cv2
 import glob
-from config import input_paths
 from pathlib import Path
 
 
 def process_image(input_path):
     image = cv2.imread(filename=input_path)
+    if image is None:
+        print(f"Failed to load image: {input_path}")
+        return None
+
     detections = detector.detect(image=image, is_bgr=True)
 
     # Draw the detections
     for detection in detections:
-        # print("Detection:", detection)
         x1, y1, x2, y2 = detection['bbox_xyxy']
         confidence = detection['confidence']
         segmenation_xy = detection['quad_xy']
@@ -21,13 +23,14 @@ def process_image(input_path):
     return image
 
 
+
 if __name__ == "__main__":
 
     detector = QRDetector(model_size='s')
-    images_root = "yolo-qr-detector\data"
+    images_root = "yolo-qr-detector/data"
 
     paths = []
-    for file in glob.glob(f'{images_root}/*/rgb.png'):
+    for file in glob.glob(f'{images_root}/rgb*.png'):
         ff = Path(file)
         fname = ff.name
         parent = ff.parent.name

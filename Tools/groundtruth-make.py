@@ -2,7 +2,7 @@ import os
 import json
 
 # Set the folder path containing the images
-folder_path = 'resize-dataset'  # Change this to your folder path
+folder_path = 'evaluation-dataset'  # Change this to your folder path
 output_file = 'qr_coordinates.json'
 
 # Initialize a dictionary to hold the QR code data
