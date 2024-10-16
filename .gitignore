@@ -1,5 +1,5 @@
 target/
 dataset/
-resize-dataset/
+.vscode/
 *.log
 
