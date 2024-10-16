@@ -1,15 +1,5 @@
 ﻿# CIIRC_QRDetection
 
-## References
-
-* [ZXING](https://github.com/zxing/zxing) - ZXing library GitHub repository
-* [Pyzxing](https://github.com/ChenjieXu/pyzxing) - Python wrapper for ZXing library
-* [QRDet](https://github.com/Eric-Canas/qrdet) - Robust QR Detector based on YOLOv8
-* [QReader](https://github.com/Eric-Canas/QReader) - Reading difficult and tricky QR codes within images in Python, uses QRDet
-* [QR Code Reading Benchmark and Comparison](https://www.dynamsoft.com/codepool/qr-code-reading-benchmark-and-comparison.html)
-* [Study of QR Code Scanning Performance in Different Environments](https://boofcv.org/index.php?title=Performance:QrCode)
-* [BoofCV](https://github.com/lessthanoptimal/BoofCV) - Another library usable for QR detection
-
 ## Overview
 
 This repository contains programs to compare the performance of multiple QR code libraries based on F1 score and execution time (elapsed time, not CPU time). For installation of each model, please refer to their respective repositories. OpenCV and QRDet can be installed via pip.
@@ -90,3 +80,13 @@ For other models, please refer to their respective repositories.
 
 - Ensure that the paths to the image dataset and ground truth JSON file are correctly specified in the scripts.
 - Refer to the respective repositories for installation instructions of other QR code libraries.
+
+## References
+
+* [ZXING](https://github.com/zxing/zxing) - ZXing library GitHub repository
+* [Pyzxing](https://github.com/ChenjieXu/pyzxing) - Python wrapper for ZXing library
+* [QRDet](https://github.com/Eric-Canas/qrdet) - Robust QR Detector based on YOLOv8
+* [QReader](https://github.com/Eric-Canas/QReader) - Reading difficult and tricky QR codes within images in Python, uses QRDet
+* [QR Code Reading Benchmark and Comparison](https://www.dynamsoft.com/codepool/qr-code-reading-benchmark-and-comparison.html)
+* [Study of QR Code Scanning Performance in Different Environments](https://boofcv.org/index.php?title=Performance:QrCode)
+* [BoofCV](https://github.com/lessthanoptimal/BoofCV) - Another library usable for QR detection
