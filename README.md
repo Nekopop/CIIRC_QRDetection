@@ -48,34 +48,6 @@ For other models, please refer to their respective repositories.
      python Tools\resize.py
      ```
 
-## Example Usage
-
-### Evaluating a Model
-
-1. Prepare your image dataset and ground truth JSON file.
-2. Specify the paths to the dataset and JSON file in the evaluation script.
-3. Run the evaluation script:
-   ```bash
-   python EvaluationCode\OpenCV\evaluate-opencv.py
-   ```
-
-### Creating Ground Truth Data
-
-1. Run the `groundtruth-make.py` script to manually input QR code coordinates:
-   ```bash
-   python Tools\groundtruth-make.py
-   ```
-
-2. Convert the JSON file to COCO format using `json2coco.py`:
-   ```bash
-   python Tools\json2coco.py
-   ```
-
-3. Resize images using `resize.py`:
-   ```bash
-   python Tools\resize.py
-   ```
-
 ## Notes
 
 - Ensure that the paths to the image dataset and ground truth JSON file are correctly specified in the scripts.
