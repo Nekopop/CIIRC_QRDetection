@@ -1,9 +1,8 @@
 import cv2
 import json
 import os
-import numpy as np
+import time
 from qrdet import QRDetector 
-from pathlib import Path
 
 # Load COCO-style ground truth data
 def load_coco_annotations(json_file):
@@ -64,6 +63,8 @@ def evaluate_qrdet_detector(image_dir, annotation_file):
     false_positives = 0
     false_negatives = 0
     processed_images = set()
+    total_time = 0  # Initialize total processing time
+    image_count = 0  # Initialize image count
 
     # Create a mapping of image_id to annotations
     image_annotations = {}
@@ -112,7 +113,19 @@ def evaluate_qrdet_detector(image_dir, annotation_file):
         try:
             # Detect QR codes in the image using QRDet
             image = cv2.imread(image_file)
+
+            # Measure the start time for QR code detection
+            start_time = time.perf_counter()
+
             detection_results = detector.detect(image=image, is_bgr=True)
+
+            # Measure the end time
+            end_time = time.perf_counter()
+            elapsed_time = end_time - start_time
+            total_time += elapsed_time  # Add elapsed time to the total processing time
+            image_count += 1  # Increment the count of processed images
+
+            print(f"Time taken for detection in {image_info['file_name']}: {elapsed_time:.6f} seconds")
 
             detected_points_list = []
             # Store detected QR code points (if valid)
@@ -154,6 +167,10 @@ def evaluate_qrdet_detector(image_dir, annotation_file):
     print(f"Precision: {precision:.2f}")
     print(f"Recall: {recall:.2f}")
     print(f"F1 Score: {f1_score:.2f}")
+    # Calculate and display the average processing time per image
+    if image_count > 0:
+        avg_time = total_time / image_count
+        print(f"Average detection time per image: {avg_time:.6f} seconds")
 
 # Example usage
 image_directory = 'dataset\evaluation-dataset'

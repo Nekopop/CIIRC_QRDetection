@@ -1,5 +1,4 @@
 import json
-import numpy as np
 import os
 from pyzxing import BarCodeReader
 import time  # Import time module for measuring elapsed time

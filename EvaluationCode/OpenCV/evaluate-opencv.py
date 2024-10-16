@@ -1,10 +1,7 @@
 import cv2
 import json
 import os
-import numpy as np
-from pathlib import Path
 import time
-from matplotlib import pyplot as plt
 
 # Load COCO-style ground truth data
 def load_coco_annotations(json_file):

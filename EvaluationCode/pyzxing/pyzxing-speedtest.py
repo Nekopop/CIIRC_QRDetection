@@ -2,7 +2,6 @@ import time
 import numpy as np
 from pyzxing import BarCodeReader
 import glob
-from pathlib import Path
 
 def process_image(input_path):
     start_time = time.time()  # Start processing timer
