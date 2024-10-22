@@ -1,0 +1,184 @@
+# Found QR Codes inside of images
+# glob:..\dataset\evaluation-dataset\*.*
+# Format:
+# <File Name> <Total Found>
+# message encoded with URLEncoder
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110019731.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110021296.MP.jpg
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110022914.MP.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110024224.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110025979.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110028076.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110030129.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110031766.jpg
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110035296.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110036349.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110037491.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110038769.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110040115.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110103255.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110104673.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110105524.jpg
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110109226.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110110474.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110111522.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110115460.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110116656.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110117574.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110118754.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110120580.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110125584.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110126646.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110128217.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110130041.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110134766.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110135968.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110137529.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110138763.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110140821.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110146893.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110148934.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110150256.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110151221.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110152336.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110153742.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110154851.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110158811.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110159842.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110201114.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110207670.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110209334.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110210377.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110211441.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110213000.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110214398.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110221367.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110224351.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110225551.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110226783.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110235560.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110845691.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110849778.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110851758.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110852813.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110853878.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110855110.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110856416.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110857956.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110858946.jpg
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110903890.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110905293.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110906697.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110907986.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110909098.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110909879.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110913412.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110914571.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110915793.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110916676.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+1 ..\dataset\evaluation-dataset\resized_PXL_20240920_110917805.jpg
+HTTPS%3A%2F%2FWB.COM%2FX645HEIABZHILO3SW5BRJY4LE4%2FAAAF
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110923108.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110924319.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110926151.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110927470.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110928646.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110934858.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110935750.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110936786.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110937462.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110938229.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110939352.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110944859.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110946091.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110947336.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110948356.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110949212.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110953281.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110954193.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110955073.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110955681.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110956317.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_110957018.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_111002915.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_111003889.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_111004607.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_111005596.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240920_111006422.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091001604.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091014701.jpg
+1 ..\dataset\evaluation-dataset\resized_PXL_20240926_091016585.jpg
+HTTPS%3A%2F%2FWB.ME%2FMQATSQ43CJAH7CG3XDXIBL6PLM%2FCZPTH30AKURR01
+1 ..\dataset\evaluation-dataset\resized_PXL_20240926_091018317.jpg
+HTTPS%3A%2F%2FWB.ME%2FMQATSQ43CJAH7CG3XDXIBL6PLM%2FCZPTH30AKURR01
+1 ..\dataset\evaluation-dataset\resized_PXL_20240926_091020229.jpg
+HTTPS%3A%2F%2FWB.ME%2FMQATSQ43CJAH7CG3XDXIBL6PLM%2FCZPTH30AKURR01
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091022429.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091024578.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091027784.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091031032.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091034157.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091037933.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091039831.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091041734.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091044405.jpg
+1 ..\dataset\evaluation-dataset\resized_PXL_20240926_091047036.jpg
+HTTPS%3A%2F%2FWB.ME%2FMQATSQ43CJAH7CG3XDXIBL6PLM%2FCZPTH30AKURR01
+1 ..\dataset\evaluation-dataset\resized_PXL_20240926_091049715.jpg
+HTTPS%3A%2F%2FWB.ME%2FMQATSQ43CJAH7CG3XDXIBL6PLM%2FCZPTH30AKURR01
+1 ..\dataset\evaluation-dataset\resized_PXL_20240926_091051216.jpg
+HTTPS%3A%2F%2FWB.ME%2FMQATSQ43CJAH7CG3XDXIBL6PLM%2FCZPTH30AKURR01
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091054735.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091057752.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091100641.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091110900.MP.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091114097.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091115546.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091118830.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091125359.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091127352.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091129175.jpg
+0 ..\dataset\evaluation-dataset\resized_PXL_20240926_091132663.jpg
+3 ..\dataset\evaluation-dataset\rgb1.png
+WB.COM%2F2KYDKIU5DJHD7GEIXI7BENQBQM%2FAAAF
+WB.COM%2FBFNRYTKQ5JACXLG6LUCC5PBKYA%2FAABF
+HTTPS%3A%2F%2FWB.COM%2FBFNRYTKQ5JACXLG6LUCC5PBKYA%2FAABF
+0 ..\dataset\evaluation-dataset\rgb10.png
+2 ..\dataset\evaluation-dataset\rgb11.png
+WB.COM%2F2KYDKIU5DJHD7GEIXI7BENQBQM%2FAAAF
+WB.COM%2FBFNRYTKQ5JACXLG6LUCC5PBKYA%2FAABF
+1 ..\dataset\evaluation-dataset\rgb11a.png
+WB.COM%2F2KYDKIU5DJHD7GEIXI7BENQBQM%2FAAAF
+1 ..\dataset\evaluation-dataset\rgb11b.png
+WB.COM%2FBFNRYTKQ5JACXLG6LUCC5PBKYA%2FAABF
+0 ..\dataset\evaluation-dataset\rgb2.png
+0 ..\dataset\evaluation-dataset\rgb20.png
+0 ..\dataset\evaluation-dataset\rgb21.png
+0 ..\dataset\evaluation-dataset\rgb22.png
+0 ..\dataset\evaluation-dataset\rgb23.png
+0 ..\dataset\evaluation-dataset\rgb3.png
+0 ..\dataset\evaluation-dataset\rgb4.png
+0 ..\dataset\evaluation-dataset\rgb5.png
+0 ..\dataset\evaluation-dataset\rgb6.png
+0 ..\dataset\evaluation-dataset\rgb7.png
+0 ..\dataset\evaluation-dataset\rgb8.png
+0 ..\dataset\evaluation-dataset\rgb9.png

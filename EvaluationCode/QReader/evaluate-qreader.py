@@ -44,7 +44,7 @@ def match_qr_codes(detected_points_list, ground_truth_points_list, iou_threshold
 
 # Evaluate the QReader detector and measure detection and decoding success
 def evaluate_qreader_detector(image_dir, annotation_file):
-    qreader = QReader(model_size="l")
+    qreader = QReader(model_size="s")
     coco_data = load_coco_annotations(annotation_file)
 
     total_ground_truths, detected_count, decoded_count = 0, 0, 0
