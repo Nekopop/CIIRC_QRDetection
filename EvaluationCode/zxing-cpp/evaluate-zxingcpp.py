@@ -94,7 +94,7 @@ def evaluate_qr_detector(image_dir, annotation_file):
         # Start timing the QR code detection
         start_time = time.perf_counter()
 
-        barcodes = zxingcpp.read_barcodes(image)
+        barcodes = zxingcpp.read_barcodes(image, return_errors=True, binarizer=zxingcpp.LocalAverage)
 
         # Stop timing the QR code detection
         end_time = time.perf_counter()
