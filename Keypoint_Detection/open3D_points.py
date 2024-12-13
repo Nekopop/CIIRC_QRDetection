@@ -6,7 +6,6 @@ import numpy as np
 import cv2
 import open3d as o3d
 
-
 def read_single_frame(reader, depth_topic, rgb_topic):
     while reader.has_next():
         (topic, data, t) = reader.read_next()
@@ -67,15 +66,15 @@ def main():
     depth_topic = '/oak/stereo/image_raw/compressed'
     rgb_topic = '/oak/rgb/image_raw/compressed'
 
-    # 入力 db3 ファイル名からフォルダ名を作成
-    bag_filename = os.path.basename(bag_path)  # ファイル名を取得
-    bag_name_without_ext = os.path.splitext(bag_filename)[0]  # 拡張子を除去
+    # Create folder name from input db3 file name
+    bag_filename = os.path.basename(bag_path)  # Get the file name
+    bag_name_without_ext = os.path.splitext(bag_filename)[0]  # Remove the extension
 
-    # 結果を保存するフォルダを指定（フォルダ名に一意性を持たせる）
+    # Specify the folder to save results (ensure unique folder names)
     output_folder = f'/home/myrousz/qr-workspace/output-pointclouds_{bag_name_without_ext}'
     os.makedirs(output_folder, exist_ok=True)
 
-    # 画像を保存するフォルダを指定
+    # Specify the folder to save images
     image_folder = os.path.join(output_folder, 'images')
     os.makedirs(image_folder, exist_ok=True)
 
@@ -114,17 +113,17 @@ def main():
         if depth_image is not None and rgb_image is not None:
             if frame_idx % 3 == 0:
                 pcd = create_point_cloud(rgb_image, depth_image, K)
-                # 点群データの保存
+                # Save point cloud data
                 output_pcd_file = os.path.join(output_folder, f"pointcloud_frame_{frame_idx:04d}.ply")
                 o3d.io.write_point_cloud(output_pcd_file, pcd)
-                # 画像の保存
+                # Save images
                 rgb_image_file = os.path.join(image_folder, f"rgb_frame_{frame_idx:04d}.png")
                 depth_image_file = os.path.join(image_folder, f"depth_frame_{frame_idx:04d}.png")
                 cv2.imwrite(rgb_image_file, cv2.cvtColor(rgb_image, cv2.COLOR_RGB2BGR))
                 cv2.imwrite(depth_image_file, depth_image)
                 print(f"Processed frame {frame_idx}: Saved point cloud and images")
                 processed_frames += 1
-            # リセット
+            # Reset
             depth_image = None
             rgb_image = None
             frame_idx += 1
